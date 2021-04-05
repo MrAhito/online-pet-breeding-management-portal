@@ -1,0 +1,8 @@
+{
+  "short_name": "Online Pet Breeding Management Portal",
+  "name": "Capstone - Group 3 Project",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,115 @@
+
+  .dashNavBar {
+    background: linear-gradient(55deg, var(--primaryColor) 50%, #f9f9f9 50%);
+    border-bottom: 1px solid #dad9d9;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    position: sticky;
+    font-weight: 600;
+    top: 0;
+    z-index: 999;
+    
+  }
+  
+  .dashnavBar {
+    color: var(--secondaryColor);
+    justify-self: start;
+    margin-left: 50px;
+    align-self: flex-end;
+    cursor: pointer;
+      height: 100%;
+    display: flex;
+    align-items: center
+  }
+  .dashnavigation {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    padding-right: 50px;
+    max-width: 1500px;
+    
+  }
+  .dash-logo{
+    height: 80%;
+    margin: auto;
+    
+}
+  .dash-menus  {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    list-style: none;
+    text-align: center;
+    width: 69.39vw;
+    justify-content: end;
+  }
+  .dash-logo-two{
+    transition: all 0.3s ease-in-out;
+    display: none;
+  }
+
+  .fas{
+    padding: 0 2.75rem;
+    color: var(--secondaryColor);
+    font-size: 2rem;
+    transition: all 0.3s ease-in-out;
+    }
+    
+.fas:hover{
+    color: rgba(99, 20, 20, .5);
+}
+  @media screen and (max-width: 1500px) {
+
+    .dashnavBar {
+        justify-self: center;
+        position: absolute;
+      margin-left: 20px;
+      height: 100%;
+          top: 0;
+          left: 0;
+      }
+  .dashNavBar {
+      flex-direction: column;
+  }
+    .dashnavigation{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    right: 0;
+    margin: 0;
+    }
+    
+  .dash-logo{
+    height: 80%;
+    margin: auto;
+}
+
+.fas{
+    
+    transition: all 0.3s ease-in-out;
+    padding: 0 2.25rem
+}
+
+}
+
+
+@media screen and (max-width: 732px) {
+.dash-logo-two{
+    display: block;
+    transition: all 0.3s ease-in-out;
+    }
+.dash-logo-one{
+display: none;
+transition: all 0.3s ease-in-out;
+}
+.fas{
+    
+    transition: all 0.3s ease-in-out;
+    padding: 0 1.5rem
+}
+}

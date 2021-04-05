@@ -1,0 +1,81 @@
+[debug] [2021-04-04T03:40:00.928Z] ----------------------------------------------------------------------
+[debug] [2021-04-04T03:40:00.941Z] Command:       C:\Users\Lazo\DOWNLO~1\Programs\firebase-tools-instant-win_2.exe C:\Users\Lazo\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
+[debug] [2021-04-04T03:40:00.943Z] CLI Version:   9.8.0
+[debug] [2021-04-04T03:40:00.944Z] Platform:      win32
+[debug] [2021-04-04T03:40:00.944Z] Node Version:  v12.2.0
+[debug] [2021-04-04T03:40:00.947Z] Time:          Sun Apr 04 2021 11:40:00 GMT+0800 (China Standard Time)
+[debug] [2021-04-04T03:40:00.947Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-04T03:40:01.012Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-04T03:40:01.014Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2021-04-04T03:40:03.267Z] [hub] writing locator at C:\Users\Lazo\AppData\Local\Temp\hub-pet-society-613aa.json
+[debug] [2021-04-04T03:40:05.485Z] > refreshing access token with scopes: []
+[debug] [2021-04-04T03:40:05.487Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-04T03:40:05.834Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 04 Apr 2021 03:40:08 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-04T03:40:06.116Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pet-society-613aa/webApps/-/config [none]
+[debug] [2021-04-04T03:40:07.493Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pet-society-613aa/webApps/-/config 200
+[debug] [2021-04-04T03:40:07.494Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pet-society-613aa/webApps/-/config {"projectId":"pet-society-613aa","appId":"1:752993757716:web:0ac8cbb68cc74696031501","databaseURL":"https://pet-society-613aa-default-rtdb.firebaseio.com","storageBucket":"pet-society-613aa.appspot.com","locationId":"asia-southeast2","apiKey":"AIzaSyDPWEar_YpPdlX_3YV7JaDjBcvQoR2xO-0","authDomain":"pet-society-613aa.firebaseapp.com","messagingSenderId":"752993757716","measurementId":"G-PBF4SKQLP5"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:34 +0000] "GET / HTTP/1.1" 200 4526 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:34 +0000] \"GET / HTTP/1.1\" 200 4526 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[debug] [2021-04-04T03:40:34.368Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js [none]
+[debug] [2021-04-04T03:40:34.372Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js [none]
+[debug] [2021-04-04T03:40:34.468Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js [none]
+[debug] [2021-04-04T03:40:34.611Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js 200
+[debug] [2021-04-04T03:40:34.611Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js [stream]
+[debug] [2021-04-04T03:40:34.615Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js [none]
+[debug] [2021-04-04T03:40:34.618Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-functions.js [none]
+[debug] [2021-04-04T03:40:34.622Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js [none]
+[debug] [2021-04-04T03:40:34.922Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js 200
+[debug] [2021-04-04T03:40:34.923Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js [stream]
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:35 +0000] "GET /__/firebase/8.3.2/firebase-app.js HTTP/1.1" 200 6586 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:35 +0000] \"GET /__/firebase/8.3.2/firebase-app.js HTTP/1.1\" 200 6586 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[debug] [2021-04-04T03:40:35.934Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-storage.js [none]
+[debug] [2021-04-04T03:40:36.732Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js 200
+[debug] [2021-04-04T03:40:36.732Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js [stream]
+[debug] [2021-04-04T03:40:36.945Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js 200
+[debug] [2021-04-04T03:40:36.945Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js [stream]
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:37 +0000] "GET /__/firebase/8.3.2/firebase-auth.js HTTP/1.1" 200 56866 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:37 +0000] \"GET /__/firebase/8.3.2/firebase-auth.js HTTP/1.1\" 200 56866 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[debug] [2021-04-04T03:40:37.418Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js [none]
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:39 +0000] "GET /__/firebase/8.3.2/firebase-database.js HTTP/1.1" 200 49639 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:39 +0000] \"GET /__/firebase/8.3.2/firebase-database.js HTTP/1.1\" 200 49639 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[debug] [2021-04-04T03:40:39.531Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-remote-config.js [none]
+[debug] [2021-04-04T03:40:39.765Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js 200
+[debug] [2021-04-04T03:40:39.765Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js [stream]
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:39 +0000] "GET /__/firebase/8.3.2/firebase-analytics.js HTTP/1.1" 200 10747 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:39 +0000] \"GET /__/firebase/8.3.2/firebase-analytics.js HTTP/1.1\" 200 10747 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[debug] [2021-04-04T03:40:40.048Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-storage.js 200
+[debug] [2021-04-04T03:40:40.048Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-storage.js [stream]
+[debug] [2021-04-04T03:40:40.070Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-performance.js [none]
+[debug] [2021-04-04T03:40:40.348Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js 200
+[debug] [2021-04-04T03:40:40.348Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js [stream]
+[debug] [2021-04-04T03:40:40.350Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-functions.js 200
+[debug] [2021-04-04T03:40:40.350Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-functions.js [stream]
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:40 +0000] "GET /__/firebase/8.3.2/firebase-messaging.js HTTP/1.1" 200 40907 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:40 +0000] \"GET /__/firebase/8.3.2/firebase-messaging.js HTTP/1.1\" 200 40907 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:40 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:40 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:40 +0000] "GET /__/firebase/8.3.2/firebase-storage.js HTTP/1.1" 200 11897 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:40 +0000] \"GET /__/firebase/8.3.2/firebase-storage.js HTTP/1.1\" 200 11897 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[debug] [2021-04-04T03:40:40.826Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-remote-config.js 200
+[debug] [2021-04-04T03:40:40.826Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-remote-config.js [stream]
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:41 +0000] "GET /__/firebase/8.3.2/firebase-functions.js HTTP/1.1" 200 10153 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:41 +0000] \"GET /__/firebase/8.3.2/firebase-functions.js HTTP/1.1\" 200 10153 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[debug] [2021-04-04T03:40:42.028Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-performance.js 200
+[debug] [2021-04-04T03:40:42.028Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/8.3.2/firebase-performance.js [stream]
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:43 +0000] "GET /__/firebase/8.3.2/firebase-remote-config.js HTTP/1.1" 200 36779 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:43 +0000] \"GET /__/firebase/8.3.2/firebase-remote-config.js HTTP/1.1\" 200 36779 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:46 +0000] "GET /__/firebase/8.3.2/firebase-performance.js HTTP/1.1" 200 38229 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:46 +0000] \"GET /__/firebase/8.3.2/firebase-performance.js HTTP/1.1\" 200 38229 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:46 +0000] "GET /__/firebase/8.3.2/firebase-firestore.js HTTP/1.1" 200 90385 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:46 +0000] \"GET /__/firebase/8.3.2/firebase-firestore.js HTTP/1.1\" 200 90385 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2021:03:40:46 +0000] "GET /favicon.ico HTTP/1.1" 200 4526 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2021:03:40:46 +0000] \"GET /favicon.ico HTTP/1.1\" 200 4526 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36\""}}
+[debug] [2021-04-04T04:05:05.547Z] Received signal SIGHUP 1
